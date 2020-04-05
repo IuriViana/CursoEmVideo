@@ -1,0 +1,112 @@
+/*Importante para fixar o rodapé*/
+
+html,body{ /*Tags pai com altura definida em 100%*/
+    height: 100%;
+}
+#wrapper{ /*Minima altura em 100%, logo todo o conteúdo da página vai ficar em 100% de altura com exceção do footer que vai ser forçado a ficar sempre em baixo*/
+    min-height: 100%;
+}
+
+body{ 
+    background-color: rgb(3, 92, 92); /*Cor de fundo */
+    margin: 0px; /*Reseta as margens pré-definidas */
+    bottom: 0px; /*Reseta as margens pré-definidas */
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{ 
+    background-color: rgb(180, 177, 177); /*Fundo branco*/
+    border-radius: 10px; /*Arredondado 10 pixels*/
+    padding: 15px; /*Espaçamento vertical de 15px */
+    width: 600px;/*largura de 500px*/
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(46, 46, 46); /*Adiciona uma sombra ao bloco de conteúdo */
+}
+
+#txto{
+    margin-left: 8px;
+    border: solid 3px rgb(4, 46, 46);
+
+    width: 200px;
+}
+
+.Sex{
+    margin-top: 40px;
+}
+
+
+header{ /*Caracterizando título  */
+    text-align: center; /*Texto alinhado ao centro*/
+    color: rgb(10, 10, 10);/*Definindo cor de texto*/
+    height: 70px;/*Altura de 70 px*/
+ }
+
+footer p{ /*Caracterizando texto do rodapé */
+    text-align: center;/*Alinhamento ao centro */
+    font-style: italic;/*Estilo de font em intalico */
+
+}
+
+div p{
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(31, 30, 30);
+
+}
+
+footer{ /*Rodapé*/
+    margin-top: 2%;
+    background-color: rgb(54, 52, 52);/*Define cor de fundo*/
+    padding: 20px;/*20px verticalmente, é necessário para fixá-lo*/ 
+}
+
+#imagem{ /*Caracterizando imagem*/
+    width: 200px; /*largura de 200px*/
+    height: 200px;/*Altura de 200px*/
+    border-radius: 50%;/*Borda arredondada em 50%*/
+    margin-top: 20px;/*20px de espaçamento em relação ao topo*/
+}
+
+.but{
+    align-self: auto;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    width: 230px;
+    height: 30px;
+    background-color: rgb(129, 126, 126);
+    border: rgb(2, 58, 58) solid 2px;
+    cursor: pointer;
+    font-size: 15px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.but:hover{
+    background-color: rgb(105, 102, 102);
+}
+#res{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(27, 23, 23);
+    margin-top: 10px;
+}
+.sla{
+    text-align:center;
+}
+
+
+/*Configuração para tela menor que 600px*/
+@media(max-width: 650px){
+    section{
+        background-color: rgb(180, 177, 177);; 
+        border-radius: 10px;
+        padding: 15px;
+        width: 350px; /*Unica coisa que se altera é a largura da section que passou para 350px*/
+        margin: auto;
+        box-shadow: 5px 5px 10px rgb(46, 46, 46);
+
+        }
+        
+
+
+}

@@ -1,0 +1,95 @@
+/*Importante para fixar o rodapé*/
+
+html,body{ /*Tags pai com altura definida em 100%*/
+    height: 100%;
+}
+#wrapper{ /*Minima altura em 100%, logo todo o conteúdo da página vai ficar em 100% de altura com exceção do footer que vai ser forçado a ficar sempre em baixo*/
+    min-height: 100%;
+}
+
+
+/*Caracterização da tag body*/
+body{ 
+    background-color: teal; /*Cor de fundo */
+    margin: 0px; /*Reseta as margens pré-definidas */
+    bottom: 0px; /*Reseta as margens pré-definidas */
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Caracterização da tag section; sessão de conteúdo */
+section{ 
+background-color: white; /*Fundo branco*/
+border-radius: 10px; /*Arredondado 10 pixels*/
+padding: 15px; /*Espaçamento vertical de 15px */
+width: 500px;/*largura de 500px*/
+margin: auto; /*margem auto; centraliza todo o bloco de contéudo */
+box-shadow: 5px 5px 10px rgb(46, 46, 46); /*Adiciona uma sombra ao bloco de conteúdo */
+
+}
+
+header{ /*Caracterizando título  */
+    text-align: center; /*Texto alinhado ao centro*/
+    color: rgb(87, 87, 87);/*Definindo cor de texto*/
+    height: 70px;/*Altura de 70 px*/
+}
+
+footer p{ /*Caracterizando texto do rodapé */
+    text-align: center;/*Alinhamento ao centro */
+    font-style: italic;/*Estilo de font em intalico */
+   
+}
+
+div{/*divs alinhadas ao centro com 8 px verticalmente*/
+    text-align: center;
+    padding: 8px;
+}
+footer{ /*Rodapé*/
+    background-color: grey;/*Define cor de fundo*/
+    padding: 20px;/*20px verticalmente, é necessário para fixá-lo*/ 
+}
+
+#imagem{ /*Caracterizando imagem*/
+    width: 200px; /*largura de 200px*/
+    height: 200px;/*Altura de 200px*/
+    border-radius: 50%;/*Borda arredondada em 50%*/
+    margin-top: 20px;/*20px de espaçamento em relação ao topo*/
+}
+#msg{ /* Caracterizando texto que vai apresentar as horas*/
+    font-size: 25px; /*Tamanho da fonta de 25 pxs*/
+    color: rgb(78, 77, 77); /*Cor de texto*/
+}
+
+#msg2{ /*Caracterizando texto que vai definir o período do dia*/
+    padding: 10px; /*Espaço vertical de 10px*/
+    margin-top: 20px ; /*Margem em relação ao topo de 20px*/
+    font-size: 20px; /*Tamanho da fonte de 20px*/ 
+    font-family: Arial, Helvetica, sans-serif;/*Font em Arial*/
+    color: rgb(78, 77, 77); /*Cor de fonte*/
+
+   
+}
+#msg3{ /*Caracterizando texto que vai definir o dia da semana*/
+    padding: 10px; /*Espaço vertical de 10px*/
+    margin-top: 20px ; /*Espaçamento em relação ao topo de 20px*/
+    font-size: 20px; /*Tamanho da fonte de 20px*/ 
+    font-family: Arial, Helvetica, sans-serif; /* Fonte definida como Arial*/
+    color: rgb(31, 29, 29); /*Cor de fonte*/
+}
+
+
+/*Configuração para tela menor que 600px*/
+@media(max-width: 600px){
+    section{
+        background-color: white; 
+        border-radius: 10px;
+        padding: 15px;
+        width: 350px; /*Unica coisa que se altera é a largura da section que passou para 350px*/
+        margin: auto;
+        box-shadow: 5px 5px 10px rgb(46, 46, 46);
+        
+        }
+        
+
+
+}

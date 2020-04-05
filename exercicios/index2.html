@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/estily.css">
+    <link rel="icon" type="imagem/x-icon" href="">
+    <title>Verificar idade</title>
+ </head>
+<body"> 
+    <div id="wrapper"> 
+    <header>
+        <h1>Verificador De Idade</h1>
+
+    </header>
+
+    <section>
+        <div>
+            <p>Ano de nascimento:
+                <input type="text" name="txto" id="txto">
+            <p class="Sex">Sexo: 
+                <input type="radio" name="sex" id="mas" checked>
+                <label for="masc">Masculino</label>
+
+                <input type="radio" name="sex" id="fem">
+                <label for="fem">Feminino<label>
+            </p>
+           
+            <p>
+               <center><input type="button" class="but" value="Verificar" onclick="verificar()"></center>
+            </p>
+        </div>
+
+            <div class="sla"><p>Preencha os dados acima!</p></div>
+        <div id="res">
+    
+        </div>
+
+    </section> 
+
+</div>
+    <footer>
+        <p>&copy;CursoemVideo</p>
+    </footer>
+    <script src="js/code.js"></script>
+</body>
+</html>
