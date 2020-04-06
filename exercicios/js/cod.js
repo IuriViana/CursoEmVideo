@@ -14,6 +14,7 @@ function carregar() {
     à unica imagem do elemento, útil para depois substituir por outras dependendo
     do período do dia;*/
 
+    
     //Definindo variáveis para o tempo
 
     var dat = atual.getDate(); /*var dat recebe atual.getDate();

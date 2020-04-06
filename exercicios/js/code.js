@@ -12,6 +12,7 @@ if(valor == 0 || valor > dat || valor<0){
 res.innerHTML = 'Valor inválido tente novamente!'
 }
 else{
+    
     var Sex = document.getElementsByName('sex');
     var idade = dat - valor;
     var gen = '';
